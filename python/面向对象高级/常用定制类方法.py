@@ -83,3 +83,40 @@ print f3[10]        #89
 
 print f3[5:10]      #[1, 2, 3, 5, 8]
 
+#__getatrr__适用于给属性赋默认值或api
+class Chain(object):
+    def __init__(self,path=''):
+        self._path=path
+
+    def __getattr__(self, path):
+        return Chain('{0}/{1}'.format(self._path,path))
+
+    def __str__(self):
+        return self._path
+
+c=Chain().status.user.timeline.list
+print c     #/status/user/timeline/list
+
+
+#任何类，只需要定义一个__call__()方法，就可以直接对实例进行调用。
+class Demo(object):
+    def __init__(self,name):
+        self._name=name
+    def __call__(self):
+        print 'name={0}'.format(self._name)
+
+d=Demo('liu')
+d()     #name=liu
+
+'''
+如果你把对象看成函数，那么函数本身其实也可以在运行期动态创建出来，
+因为类的实例都是运行期创建出来的，这么一来，我们就模糊了对象和函数的界限。
+
+那么，怎么判断一个变量是对象还是函数呢？
+其实，更多的时候，我们需要判断一个对象是否能被调用，
+能被调用的对象就是一个Callable对象，比如函数和我们上面定义的带有__call()__的类实例：
+'''
+
+print callable(Demo)        #True
+print callable(Demo('wang'))    #True
+print callable([1,2])       #False
