@@ -1,0 +1,9 @@
+(dp1
+S'age'
+p2
+I6
+sS'name'
+p3
+S'liu'
+p4
+s.
