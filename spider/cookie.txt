@@ -1,0 +1,7 @@
+    # Netscape HTTP Cookie File
+    # http://www.netscape.com/newsref/std/cookie_spec.html
+    # This is a generated file!  Do not edit.
+
+www.yb3.cc	FALSE	/	FALSE		ASP.NET_SessionId	hwmzpqwa5i1ybtcxd2zlsnoe
+www.yb3.cc	FALSE	/	FALSE	1501164545	member_username	1178981326@qq.com
+www.yb3.cc	FALSE	/	FALSE	1501164545	user	167367|29A4B742DBDF055E2371D3829625D7D7198AC794DEC0031E47CF809959415AE3
