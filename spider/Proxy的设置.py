@@ -14,7 +14,9 @@ rllib2 默认会使用环境变量 http_proxy 来设置 HTTP Proxy。
 
 import urllib2
 enable_proxy=True
+#使用代理
 proxy_handler=urllib2.ProxyHandler({'http':'180.168.179.193:8080'})
+#不使用代理
 null_proxy_handler=urllib2.ProxyHandler({})
 if enable_proxy:
     opener=urllib2.build_opener(proxy_handler)

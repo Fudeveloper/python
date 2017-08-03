@@ -52,7 +52,7 @@
 # # # ignore_expires: save even cookies that have expiredThe file is overwritten if it already exists
 #
 #
-# #利用cookie来模拟登陆教务
+# #利用cookie来模拟登陆
 # import urllib
 # import urllib2
 # import cookielib
@@ -62,7 +62,7 @@
 # #构建data字符串
 # url='http://www.yb3.cc/login.php?action=login&usecookie=120&jumpurl='
 # postdata=urllib.urlencode({
-#     'username':'1178981326@qq.com',
+#     'username':'likliklik',
 #     'password':'wo951127'
 # })
 # print postdata
@@ -75,9 +75,10 @@
 # #创建一个request
 # request=urllib2.Request(url,postdata)
 # #打开网址
-# opener.open(request)
+# response=opener.open(request)
 # #保存cookie到文件
 # cookiejar.save(ignore_expires=True,ignore_discard=True)
+# print response.read()
 
 
 
