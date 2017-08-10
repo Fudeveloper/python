@@ -3,19 +3,19 @@ import scrapy
 from first_scrapy.items import ItcastItem
 class ItcastSpider(scrapy.Spider):
     name='itcast'
-    #允许爬虫作用的范围
-    allowd_domains=['http:www.itcast.cn/']
-    #爬虫起始url
+    # 允许爬虫作用的范围
+    allowd_domains = ['http:www.itcast.cn/']
+    # 爬虫起始url
     start_urls=['http://www.itcast.cn/channel/teacher.shtml#']
 
     # 重写parse方法
-    def parse(self,response):
+    def parse(self, response):
         # with open('teacher.html','w') as f:
         #     f.write(response.body)
 
         # 用scrapy自带的xpath来寻找目标元素
         # 教师列表
-        teacher_list=response.xpath('//div[@class="li_txt"]')
+        teacher_list = response.xpath('//div[@class="li_txt"]')
 
         # 所有老师的集合
         # teachers_item=[]
