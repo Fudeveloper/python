@@ -2,18 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcf6463-0564-462d-bc3a-9c2dd707fe29" name="Default" comment="learning">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/dongguan_scrapy/start.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/doubanmovie/start.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/newDongguan/spiders/dongguan_spider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/newDongguan/spiders/newdongguan.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/start.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/start_spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/7-spieder/_动态页面爬虫/baidu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/7-spieder/_动态页面爬虫/changpagedouyu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/7-spieder/_动态页面爬虫/douban.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/7-spieder/_动态页面爬虫/douyu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/7-spieder/_动态页面爬虫/keys.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/7-spieder/_动态页面爬虫/login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/7-spieder/_动态页面爬虫/全选.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/7-spieder/01.爬虫知识体系和urllib2库基本使用/duanzi.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/7-spieder/_动态页面爬虫/ghostdriver.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/dongguan_scrapy/dongguan.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/dongguan_scrapy/dongguan_scrapy/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/dongguan_scrapy/dongguan_scrapy/items.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/dongguan_scrapy/dongguan_scrapy/middlewares.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/dongguan_scrapy/dongguan_scrapy/pipelines.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/dongguan_scrapy/dongguan_scrapy/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/dongguan_scrapy/dongguan_scrapy/spiders/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/dongguan_scrapy/dongguan_scrapy/spiders/dongguan.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/dongguan_scrapy/dongguanlog.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/dongguan_scrapy/scrapy.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/doubanmovie/douban.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/doubanmovie/doubanlog.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/douban.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/items.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/middlewares.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/pipelines.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/spiders/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/spiders/douban_spider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/doubanmovie/scrapy.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/douyu/douyu/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/douyu/douyu/items.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/douyu/douyu/middlewares.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/douyu/douyu/pipelines.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/douyu/douyu/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/douyu/douyu/spiders/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/douyu/douyu/spiders/douyu_image.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/douyu/scrapy.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/first_scrapy/first_scrapy/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/first_scrapy/first_scrapy/items.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/first_scrapy/first_scrapy/middlewares.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/first_scrapy/first_scrapy/pipelines.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/first_scrapy/first_scrapy/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/first_scrapy/first_scrapy/spiders/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/first_scrapy/scrapy.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/first_scrapy/teacher.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/first_scrapy/teacher.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/newDongguan/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/newDongguan/items.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/newDongguan/middlewares.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/newDongguan/pipelines.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/newDongguan/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/newDongguan/spiders/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/newdongguan.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/newlog.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newDongguan/scrapy.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newTencent/newTencent/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newTencent/newTencent/items.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newTencent/newTencent/middlewares.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newTencent/newTencent/pipelines.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newTencent/newTencent/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newTencent/newTencent/spiders/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newTencent/newTencentlog.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newTencent/scrapy.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/newTencent/tencent.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/tencent_scrapy/scrapy.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/tencent_scrapy/tencent.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/tencent_scrapy/tencent_scrapy/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/tencent_scrapy/tencent_scrapy/items.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/tencent_scrapy/tencent_scrapy/middlewares.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/tencent_scrapy/tencent_scrapy/pipelines.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/tencent_scrapy/tencent_scrapy/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/tencent_scrapy/tencent_scrapy/spiders/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cz/tencent_scrapy/tencent_scrapy/spiders/tencent.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/select_ip.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python.iml" afterPath="$PROJECT_DIR$/.idea/python.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cz/doubanmovie/start.py" afterPath="$PROJECT_DIR$/cz/doubanmovie/start.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cz/newDongguan/start_spider.py" afterPath="$PROJECT_DIR$/cz/newDongguan/start_spider.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1.py" afterPath="$PROJECT_DIR$/register_python.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,6 +122,7 @@
     <SUITE FILE_PATH="coverage/python$itcast_spider.coverage" NAME="itcast_spider Coverage Results" MODIFIED="1502284664190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cz/first_scrapy/first_scrapy/spiders" />
     <SUITE FILE_PATH="coverage/python$Scrapy_project.coverage" NAME="Scrapy_project Coverage Results" MODIFIED="1502708368588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cz/first_scrapy" />
     <SUITE FILE_PATH="coverage/python$requests.coverage" NAME="requests常用方法 Coverage Results" MODIFIED="1501921683178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cz/7-spieder" />
+    <SUITE FILE_PATH="coverage/python$select_ip.coverage" NAME="select_ip Coverage Results" MODIFIED="1502947768194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1501491961624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/实战/2-百度贴吧" />
     <SUITE FILE_PATH="coverage/python$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1502369553998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cz/douyu/douyu" />
     <SUITE FILE_PATH="coverage/python$cookie2.coverage" NAME="cookie2 Coverage Results" MODIFIED="1501679338228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
@@ -63,7 +134,7 @@
     <SUITE FILE_PATH="coverage/python$douban_spider.coverage" NAME="douban_spider Coverage Results" MODIFIED="1502858795078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/spiders" />
     <SUITE FILE_PATH="coverage/python$mro.coverage" NAME="mro Coverage Results" MODIFIED="1500897696694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/错误、调试和测试" />
     <SUITE FILE_PATH="coverage/python$newdongguan.coverage" NAME="newdongguan Coverage Results" MODIFIED="1502769196071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cz/newDongguan/newDongguan/spiders" />
-    <SUITE FILE_PATH="coverage/python$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1502867753153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cz/doubanmovie" />
+    <SUITE FILE_PATH="coverage/python$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1502892363676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cz/doubanmovie" />
     <SUITE FILE_PATH="coverage/python$2_.coverage" NAME="2-糗事百科交互模式 Coverage Results" MODIFIED="1501327286925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/实战" />
     <SUITE FILE_PATH="coverage/python$__1_.coverage" NAME="字符串处理 (1) Coverage Results" MODIFIED="1502766894488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cz/newDongguan" />
     <SUITE FILE_PATH="coverage/python$start.coverage" NAME="start Coverage Results" MODIFIED="1502770389066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cz/newDongguan" />
@@ -94,12 +165,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/pipelines.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="1748">
+              <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select_ip.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/select_ip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register_python.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/register_python.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <folding>
+                <element signature="e#168#194#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,30 +210,38 @@
       <file leaf-file-name="douban_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/spiders/douban_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="69" column="36" lean-forward="false" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="552">
+              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/settings.py">
+      <file leaf-file-name="start.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cz/doubanmovie/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+            <state relative-caret-position="69">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doubanlog.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanlog.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3289">
+              <caret line="143" column="61" lean-forward="false" selection-start-line="143" selection-start-column="61" selection-end-line="143" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cz/doubanmovie/scrapy.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -180,8 +291,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cz/first_scrapy/first_scrapy/spiders/itcast_spider.py" />
-        <option value="$PROJECT_DIR$/cz/douyu/1.py" />
         <option value="D:/###baidu/7 爬虫/第2节 scrapy框架/01.scrapy框架与Spider类/源码/douyu/douyu/spiders/douyumeinv.py" />
         <option value="$PROJECT_DIR$/cz/douyu/douyu/items.py" />
         <option value="$PROJECT_DIR$/cz/douyu/douyu/spiders/douyu_image.py" />
@@ -222,7 +331,6 @@
         <option value="$PROJECT_DIR$/cz/newDongguan/newdongguan.json" />
         <option value="$PROJECT_DIR$/cz/newDongguan/start_spider.py" />
         <option value="$PROJECT_DIR$/cz/dongguan_scrapy/dongguan_scrapy/settings.py" />
-        <option value="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/settings.py" />
         <option value="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/pipelines.py" />
         <option value="$PROJECT_DIR$/cz/newDongguan/newDongguan/spiders/dongguan_spider.py" />
         <option value="$PROJECT_DIR$/cz/newDongguan/1.py" />
@@ -231,6 +339,9 @@
         <option value="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/items.py" />
         <option value="$PROJECT_DIR$/cz/doubanmovie/douban.json" />
         <option value="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/spiders/douban_spider.py" />
+        <option value="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/settings.py" />
+        <option value="$PROJECT_DIR$/cz/doubanmovie/doubanmovie/middlewares.py" />
+        <option value="$PROJECT_DIR$/select_ip.py" />
       </list>
     </option>
   </component>
@@ -241,8 +352,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="811" />
-    <option name="y" value="309" />
+    <option name="x" value="-103" />
+    <option name="y" value="43" />
     <option name="width" value="1129" />
     <option name="height" value="659" />
   </component>
@@ -264,6 +375,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,17 +388,22 @@
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="cz" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="cz" type="462c0819:PsiDirectoryNode" />
+              <item name="doubanmovie" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/cz/7-spieder/_lxml/百度贴吧图片.py" />
@@ -321,7 +438,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.start (1)">
+  <component name="RunManager" selected="Python.select_ip">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -589,6 +706,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="select_ip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/select_ip.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="start (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -603,24 +738,6 @@
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cz/doubanmovie/start.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cz/newDongguan" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cz/newDongguan/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -645,19 +762,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Scrapy_project" />
-      <item index="1" class="java.lang.String" itemvalue="Python.start" />
-      <item index="2" class="java.lang.String" itemvalue="Python.start_spider" />
-      <item index="3" class="java.lang.String" itemvalue="Python.start (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.1" />
-      <item index="5" class="java.lang.String" itemvalue="Python.douban_spider" />
+      <item index="1" class="java.lang.String" itemvalue="Python.start_spider" />
+      <item index="2" class="java.lang.String" itemvalue="Python.start (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.douban_spider" />
+      <item index="5" class="java.lang.String" itemvalue="Python.select_ip" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.start (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.douban_spider" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.start_spider" />
-        <item index="4" class="java.lang.String" itemvalue="Python.start" />
+        <item index="0" class="java.lang.String" itemvalue="Python.select_ip" />
+        <item index="1" class="java.lang.String" itemvalue="Python.start (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.douban_spider" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.start_spider" />
       </list>
     </recent_temporary>
   </component>
@@ -766,7 +883,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502614510944</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="learning">
+      <created>1502868858089</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1502868858089</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -813,17 +937,17 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23712446" sideWeight="0.49570817" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14860515" sideWeight="0.49570817" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56833714" sideWeight="0.51145834" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40546697" sideWeight="0.48854166" order="6" side_tool="false" content_ui="tabs" x="-68" y="435" width="1916" height="317" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32801822" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32801822" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41571754" sideWeight="0.48854166" order="6" side_tool="false" content_ui="tabs" x="-68" y="435" width="1916" height="317" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32346243" sideWeight="0.4957265" order="3" side_tool="false" content_ui="tabs" x="24" y="374" width="1872" height="284" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.108333334" sideWeight="0.50429183" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5125285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.108333334" sideWeight="0.50429183" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -899,41 +1023,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/###baidu/7 爬虫/第2节 scrapy框架/02.scrapy框架与CrawlSpider类/源码/dongguan/dongguan/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cz/newTencent/newTencent/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/###baidu/7 爬虫/第2节 scrapy框架/02.scrapy框架与CrawlSpider类/源码/dongguan/dongguan.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="75" lean-forward="true" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/###baidu/7 爬虫/第2节 scrapy框架/02.scrapy框架与CrawlSpider类/源码/dongguan/dongguan/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/###baidu/7 爬虫/第2节 scrapy框架/02.scrapy框架与CrawlSpider类/源码/dongguan/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/###baidu/7 爬虫/第2节 scrapy框架/02.scrapy框架与CrawlSpider类/源码/dongguan/dongguan/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -1061,13 +1150,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cz/newDongguan/newDongguan/spiders/字符串处理.py" />
-    <entry file="file://$PROJECT_DIR$/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cz/newDongguan/newlog.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-527">
@@ -1189,10 +1271,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cz/doubanmovie/start.py">
+    <entry file="file://$PROJECT_DIR$/cz/newDongguan/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="69">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/###baidu/7 爬虫/第2节 scrapy框架/03.scrapy框架模拟登陆与中间件/源码/douban/douban/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="74" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1203,43 +1306,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cz/newDongguan/1.py">
+    <entry file="file://$PROJECT_DIR$/cz/doubanmovie/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanlog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3289">
+          <caret line="143" column="61" lean-forward="false" selection-start-line="143" selection-start-column="61" selection-end-line="143" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cz/doubanmovie/start.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="1748">
+          <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/spiders/douban_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="69" column="36" lean-forward="false" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+        <state relative-caret-position="552">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#168#194#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cz/doubanmovie/doubanmovie/items.py">
+    <entry file="file://$PROJECT_DIR$/select_ip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="207">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register_python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>

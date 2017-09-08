@@ -1,0 +1,36 @@
+2017-08-12 12:06:44 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: newTencent)
+2017-08-12 12:06:44 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'newTencent.spiders', 'ROBOTSTXT_OBEY': True, 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['newTencent.spiders'], 'BOT_NAME': 'newTencent', 'LOG_FILE': 'newTencentlog.log'}
+2017-08-12 12:06:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-08-12 12:06:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-08-12 12:06:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-08-12 12:06:44 [scrapy.middleware] INFO: Enabled item pipelines:
+['newTencent.pipelines.NewtencentPipeline']
+2017-08-12 12:06:44 [scrapy.core.engine] INFO: Spider opened
+2017-08-12 12:06:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-14 18:59:52 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: newTencent)
+2017-08-14 18:59:52 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'newTencent.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['newTencent.spiders'], 'LOG_FILE': 'newTencentlog.log', 'BOT_NAME': 'newTencent'}
+2017-08-14 18:59:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-08-14 18:59:52 [twisted] CRITICAL: Unhandled error in Deferred:
